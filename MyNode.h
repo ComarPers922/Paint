@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface MyNode : UIView
-
+@property (nonatomic,assign) int ID;
+@property (nonatomic,assign) BOOL selected;
 @end

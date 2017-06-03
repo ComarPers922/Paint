@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface LockView : UIView
-
+@property (nonatomic,strong) UIViewController* superViewController;
 @end

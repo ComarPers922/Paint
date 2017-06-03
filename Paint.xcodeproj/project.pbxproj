@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1894057F1EE2E5C1001AC8AD /* CircularGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894057E1EE2E5C1001AC8AD /* CircularGraph.m */; };
+		189405821EE2E5F7001AC8AD /* CircularGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 189405811EE2E5F7001AC8AD /* CircularGraphView.m */; };
 		189766621ED71C2C0045901B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 189766611ED71C2C0045901B /* main.m */; };
 		189766651ED71C2C0045901B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 189766641ED71C2C0045901B /* AppDelegate.m */; };
 		189766681ED71C2C0045901B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189766671ED71C2C0045901B /* ViewController.m */; };
 		1897666B1ED71C2C0045901B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189766691ED71C2C0045901B /* Main.storyboard */; };
 		1897666D1ED71C2C0045901B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1897666C1ED71C2C0045901B /* Assets.xcassets */; };
 		189766701ED71C2C0045901B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1897666E1ED71C2C0045901B /* LaunchScreen.storyboard */; };
+		189766791ED71CCF0045901B /* LockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 189766781ED71CCF0045901B /* LockView.m */; };
+		1897667F1ED72B2F0045901B /* MyNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1897667E1ED72B2F0045901B /* MyNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1894057D1EE2E5C1001AC8AD /* CircularGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircularGraph.h; sourceTree = "<group>"; };
+		1894057E1EE2E5C1001AC8AD /* CircularGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircularGraph.m; sourceTree = "<group>"; };
+		189405801EE2E5F7001AC8AD /* CircularGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircularGraphView.h; sourceTree = "<group>"; };
+		189405811EE2E5F7001AC8AD /* CircularGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircularGraphView.m; sourceTree = "<group>"; };
 		1897665D1ED71C2B0045901B /* Paint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Paint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		189766611ED71C2C0045901B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		189766631ED71C2C0045901B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +34,10 @@
 		1897666C1ED71C2C0045901B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1897666F1ED71C2C0045901B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		189766711ED71C2C0045901B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189766771ED71CCF0045901B /* LockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LockView.h; path = ../LockView.h; sourceTree = "<group>"; };
+		189766781ED71CCF0045901B /* LockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LockView.m; path = ../LockView.m; sourceTree = "<group>"; };
+		1897667D1ED72B2F0045901B /* MyNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyNode.h; path = ../MyNode.h; sourceTree = "<group>"; };
+		1897667E1ED72B2F0045901B /* MyNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyNode.m; path = ../MyNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +70,22 @@
 		1897665F1ED71C2B0045901B /* Paint */ = {
 			isa = PBXGroup;
 			children = (
+				1894057D1EE2E5C1001AC8AD /* CircularGraph.h */,
+				1894057E1EE2E5C1001AC8AD /* CircularGraph.m */,
+				1897667D1ED72B2F0045901B /* MyNode.h */,
+				1897667E1ED72B2F0045901B /* MyNode.m */,
 				189766631ED71C2C0045901B /* AppDelegate.h */,
 				189766641ED71C2C0045901B /* AppDelegate.m */,
 				189766661ED71C2C0045901B /* ViewController.h */,
 				189766671ED71C2C0045901B /* ViewController.m */,
+				189766771ED71CCF0045901B /* LockView.h */,
+				189766781ED71CCF0045901B /* LockView.m */,
 				189766691ED71C2C0045901B /* Main.storyboard */,
 				1897666C1ED71C2C0045901B /* Assets.xcassets */,
 				1897666E1ED71C2C0045901B /* LaunchScreen.storyboard */,
 				189766711ED71C2C0045901B /* Info.plist */,
+				189405801EE2E5F7001AC8AD /* CircularGraphView.h */,
+				189405811EE2E5F7001AC8AD /* CircularGraphView.m */,
 				189766601ED71C2C0045901B /* Supporting Files */,
 			);
 			path = Paint;
@@ -151,8 +171,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				189766681ED71C2C0045901B /* ViewController.m in Sources */,
+				1894057F1EE2E5C1001AC8AD /* CircularGraph.m in Sources */,
+				189766791ED71CCF0045901B /* LockView.m in Sources */,
 				189766651ED71C2C0045901B /* AppDelegate.m in Sources */,
 				189766621ED71C2C0045901B /* main.m in Sources */,
+				1897667F1ED72B2F0045901B /* MyNode.m in Sources */,
+				189405821EE2E5F7001AC8AD /* CircularGraphView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +333,7 @@
 				189766761ED71C2C0045901B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

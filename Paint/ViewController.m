@@ -7,8 +7,14 @@
 //
 
 #import "ViewController.h"
+#import "LockView.h"
+
 
 @interface ViewController ()
+
+@property (nonatomic,strong) LockView* lockView;
+
+
 
 @end
 
@@ -17,6 +23,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.lockView = [[LockView alloc]initWithFrame:CGRectMake(0, 30, self.view.bounds.size.width, self.view.bounds.size.height-30)];
+    self.lockView.backgroundColor = [UIColor whiteColor];
+    self.lockView.superViewController = self;
+    [self.view addSubview:self.lockView];
+    self.graph = [[CircularGraph alloc]init];
 }
 
 

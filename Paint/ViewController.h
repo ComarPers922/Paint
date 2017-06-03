@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CircularGraph.h"
+
 
 @interface ViewController : UIViewController
 
+@property (nonatomic,strong) CircularGraph* graph;
 
 @end
 
